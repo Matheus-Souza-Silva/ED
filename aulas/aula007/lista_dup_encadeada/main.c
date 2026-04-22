@@ -5,8 +5,8 @@
 
 typedef struct Item{
     int Chave; // Ou qualquer informação de interesse
-    struct Item * Proximo; // Endereço de memoria para o proximo item da lista
     struct Item * Anterior; // Endereço de memoria para o item anterior
+    struct Item * Proximo; // Endereço de memoria para o proximo item da lista
 } Item;
 
 Item * CriarItem(int Chave);
